@@ -107,3 +107,139 @@ class App extends React.Component {
   
   
   };
+
+
+  const Body = () => {
+    const hours = new Date().getHours();
+    const greeting = hours < 12 ? "Morning" : hours < 17 ? "Afternoon" : "Evening";
+  
+    return /*#__PURE__*/(
+      React.createElement("main", null, /*#__PURE__*/
+        React.createElement("div", { class: "greeting" }, /*#__PURE__*/
+          React.createElement("h2", null, "Good ", greeting)), /*#__PURE__*/
+  
+  
+        React.createElement("div", { class: "recent-activity" }, /*#__PURE__*/
+          React.createElement("div", { class: "activity-info" }, /*#__PURE__*/
+            React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+              React.createElement("img", { src: "https://seed-mix-image.spotifycdn.com/v6/img/pop/4AK6F7OLvEQ5QYCBNiQWHq/en/default", alt: "Pop Mix playlist cover photo" })), /*#__PURE__*/
+  
+            React.createElement("p", null, "Pop Mix")), /*#__PURE__*/
+  
+          React.createElement("div", { class: "activity-info" }, /*#__PURE__*/
+            React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+              React.createElement("img", { src: "https://i.scdn.co/image/ab67656300005f1f854bce22cb0e6890dba92dd8", alt: "The Athletic Football Tactics Podcast cover photo" })), /*#__PURE__*/
+  
+            React.createElement("p", null, "The Athletic Football Tactics Podcast")), /*#__PURE__*/
+  
+          React.createElement("div", { class: "activity-info" }, /*#__PURE__*/
+            React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+              React.createElement("img", { src: "https://i.scdn.co/image/ab67706f00000002b75cdf3f088c129cc350c0f8", alt: "This Is One Direction playlist cover photo" })), /*#__PURE__*/
+  
+            React.createElement("p", null, "This Is One Direction")), /*#__PURE__*/
+  
+          React.createElement("div", { class: "activity-info" }, /*#__PURE__*/
+            React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+              React.createElement("img", { src: "https://i.scdn.co/image/ab6761610000e5eb6e9a17ce6d67c02312e3fb89", alt: "Alessia Cara cover photo" })), /*#__PURE__*/
+  
+            React.createElement("p", null, "Alessia Cara")), /*#__PURE__*/
+  
+          React.createElement("div", { class: "activity-info" }, /*#__PURE__*/
+            React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+              React.createElement("img", { src: "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb26dbdbdacda5c30dc95e0c2c/3/en/default", alt: "Daily Mix 3 playlist cover photo" })), /*#__PURE__*/
+  
+            React.createElement("p", null, "Daily Mix 3")), /*#__PURE__*/
+  
+          React.createElement("div", { class: "activity-info" }, /*#__PURE__*/
+            React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+              React.createElement("img", { src: "https://i.scdn.co/image/ab67706f000000021373358fa4ff03aac54f188e", alt: "All Out 10s playlist cover photo" })), /*#__PURE__*/
+  
+            React.createElement("p", null, "All Out 10s"))), /*#__PURE__*/
+  
+  
+  
+        React.createElement("div", { class: "category" }, /*#__PURE__*/
+          React.createElement("div", { class: "title" }, /*#__PURE__*/
+            React.createElement("h3", null, "Your Shows"), /*#__PURE__*/
+            React.createElement("a", { href: "#" }, "SEE ALL")), /*#__PURE__*/
+  
+          React.createElement("div", null, /*#__PURE__*/
+            React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+              React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                React.createElement("img", { src: "https://i.scdn.co/image/a3313c9ff4f806345e71728b502022782e92cf34", alt: "HTML All The Things podcast cover photo" })), /*#__PURE__*/
+  
+              React.createElement("p", { class: "category-name" }, "HTML All The Things"), /*#__PURE__*/
+              React.createElement("p", { class: "author" }, "Show. Matt & Mike")), /*#__PURE__*/
+  
+            React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+              React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                React.createElement("img", { src: "https://i.scdn.co/image/ab67656300005f1f854bce22cb0e6890dba92dd8", alt: "The Athletic Football Podcast cover photo" })), /*#__PURE__*/
+  
+              React.createElement("p", { class: "category-name" }, "The Athletic Football Podcast"), /*#__PURE__*/
+              React.createElement("p", { class: "author" }, "Show. The Athletic")), /*#__PURE__*/
+  
+            React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+              React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                React.createElement("img", { src: "https://i.scdn.co/image/ab67656300005f1fcf5b0c37fe67ebbcdceb930b", alt: "Headline: Breaking Football News playlist cover photo" })), /*#__PURE__*/
+  
+              React.createElement("p", { class: "category-name" }, "Headline: Breaking Football News"), /*#__PURE__*/
+              React.createElement("p", { class: "author" }, "Show. The Athletic")), /*#__PURE__*/
+  
+            React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+              React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                React.createElement("img", { src: "https://i.scdn.co/image/fedc8e1c8b93cc9b8e49e8e101ec9d9b8795d1fe", alt: "Raj Prakash Paul playlist cover photo" })), /*#__PURE__*/
+  
+              React.createElement("p", { class: "category-name" }, "Raj Prakash Paul"), /*#__PURE__*/
+              React.createElement("p", { class: "author" }, "Show. Raj Prakash Paul")), /*#__PURE__*/
+  
+            React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+              React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                React.createElement("img", { src: "https://i.scdn.co/image/ab67656300005f1f6d655e4364ad1ed1dad7a83d", alt: "The Here We Go Podcast cover photo" })), /*#__PURE__*/
+  
+              React.createElement("p", { class: "category-name" }, "The Here We Go Podcast"), /*#__PURE__*/
+              React.createElement("p", { class: "author" }, "Show. Here We Go")))), /*#__PURE__*/
+  
+
+              React.createElement("div", { class: "category" }, /*#__PURE__*/
+                React.createElement("div", { class: "title" }, /*#__PURE__*/
+                  React.createElement("h3", null, "Made For curious_coder"), /*#__PURE__*/
+                  React.createElement("a", { href: "#" }, "SEE ALL")), /*#__PURE__*/
+        
+                React.createElement("div", null, /*#__PURE__*/
+                  React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+                    React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                      React.createElement("img", { src: "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb031619e5eb9ed3b9806b648b/1/en/default", alt: "Daily Mix 1 cover photo" })), /*#__PURE__*/
+        
+                    React.createElement("p", { class: "category-name" }, "Daily Mix 1"), /*#__PURE__*/
+                    React.createElement("p", { class: "author" }, "Ella Mai, Shawn Mendes, Jason Derulo")), /*#__PURE__*/
+        
+                  React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+                    React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                      React.createElement("img", { src: "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb6e9a17ce6d67c02312e3fb89/2/en/default", alt: "Daily Mix 2 cover photo" })), /*#__PURE__*/
+        
+                    React.createElement("p", { class: "category-name" }, "Daily Mix 2"), /*#__PURE__*/
+                    React.createElement("p", { class: "author" }, "Alessia Cara, 5 Seconds Of Summer")), /*#__PURE__*/
+        
+                  React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+                    React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                      React.createElement("img", { src: "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb26dbdbdacda5c30dc95e0c2c/3/en/default", alt: "Daily Mix 3 cover photo" })), /*#__PURE__*/
+        
+                    React.createElement("p", { class: "category-name" }, "Daily Mix 3"), /*#__PURE__*/
+                    React.createElement("p", { class: "author" }, "Taylor Swift, Fifth Harmony")), /*#__PURE__*/
+        
+                  React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+                    React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                      React.createElement("img", { src: "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb7aff8a274fcec288dd534abc/4/en/default", alt: "Daily Mix 4 cover photo" })), /*#__PURE__*/
+        
+                    React.createElement("p", { class: "category-name" }, "Daily Mix 4"), /*#__PURE__*/
+                    React.createElement("p", { class: "author" }, "Jesus Culture, Bethel Music")), /*#__PURE__*/
+        
+                  React.createElement("div", { class: "category-info" }, /*#__PURE__*/
+                    React.createElement("div", { class: "img-div" }, /*#__PURE__*/
+                      React.createElement("img", { src: "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb70859a2e628fd00e8be3a696/5/en/default", alt: "Daily Mix 5 cover photo" })), /*#__PURE__*/
+        
+                    React.createElement("p", { class: "category-name" }, "Daily Mix 5"), /*#__PURE__*/
+                    React.createElement("p", { class: "author" }, "Benny Joshua, Allen Ganta")))), /*#__PURE*/ 
+
+    
+                    
