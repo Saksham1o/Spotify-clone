@@ -13,7 +13,6 @@ class App extends React.Component {
     }
   }
   
-  
   const Menu = () => {
     return /*#__PURE__*/(
       React.createElement("div", { id: "menu-bar", class: "menu-bar" }, /*#__PURE__*/
